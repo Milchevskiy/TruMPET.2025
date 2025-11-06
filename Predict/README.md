@@ -13,7 +13,7 @@ Protein Secondary Structure Prediction by TruMPET 2025.
 <br>https://ftp.eimb.ru/Milch/TruMPET.2025/ESM2/ESM2_UR50D.tar.xz
 <br>Unpack this archive into the <b>Models/ESM2/checkpoints</b> subdirectory. If you will skip this step then script try to download this model from the official ESM2 repository.
 5.	Default path configuration
-<br>Before running any scripts, carefully check all directory paths and file names in files TruMPET_cpu.py and TruMPET_gpu.py. The default paths are the following:
+<br>Before running any scripts, carefully check all directory paths and file names in files <b>TruMPET_cpu.py</b> and <b>TruMPET_gpu.py</b>. The default paths are the following:
 ```
 MODEL_PATH      = "Models/mix/1024_4_cpu.pt"
 TASK_SET_FILE   = "Models/mix/1024_4.task"
