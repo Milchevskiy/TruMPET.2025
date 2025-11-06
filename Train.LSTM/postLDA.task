@@ -1,0 +1,153 @@
+_is_this_aa_here ACE
+_is_this_aa_here ALA
+_is_this_aa_here ARG
+_is_this_aa_here ASN
+_is_this_aa_here ASP
+_is_this_aa_here CAF
+_is_this_aa_here CAS
+_is_this_aa_here CME
+_is_this_aa_here CSD
+_is_this_aa_here CSO
+_is_this_aa_here CSS
+_is_this_aa_here CSX
+_is_this_aa_here CYS
+_is_this_aa_here FME
+_is_this_aa_here GLN
+_is_this_aa_here GLU
+_is_this_aa_here GLY
+_is_this_aa_here HIS
+_is_this_aa_here HYP
+_is_this_aa_here ILE
+_is_this_aa_here KCX
+_is_this_aa_here LEU
+_is_this_aa_here LLP
+_is_this_aa_here LYS
+_is_this_aa_here MET
+_is_this_aa_here MLY
+_is_this_aa_here MLZ
+_is_this_aa_here MSE
+_is_this_aa_here OCS
+_is_this_aa_here PCA
+_is_this_aa_here PHE
+_is_this_aa_here PRO
+_is_this_aa_here PTR
+_is_this_aa_here SEP
+_is_this_aa_here SER
+_is_this_aa_here SME
+_is_this_aa_here SNN
+_is_this_aa_here THR
+_is_this_aa_here TPO
+_is_this_aa_here TRP
+_is_this_aa_here TYR
+_is_this_aa_here UNK
+_is_this_aa_here VAL
+_is_this_aa_here YCM
+_c_FourierSmoothed_tail KARS160108     3.7  5   1
+_c_FourierSmoothed_tail MIYS990102     3.6  7   1
+_c_FourierSmoothed_tail MUNV940102     3.0  2   1
+_c_FourierSmoothed_tail MUNV940103    10.0  3   2
+_Dull_Sum_tail MUNV940102  -5 16 3
+_Dull_Sum_tail MUNV940103  -5 5  2
+_Dull_Sum_tail MUNV940103 -5 6 1
+_Dull_Sum_tail PONP800104  -5 5  2
+_Dull_Sum_tail PTIO830101 -15 16 3
+_Dull_Sum_tail PTIO830101 -5  5  3
+_Dull_Sum_tail PTIO830101 -5 6 1
+_how_close_to_the_end  N  3
+_Iupred2 short 3
+_Log_occurence_differrence -1_3full_G_P   11           1
+_Log_occurence_differrence -1_3full_G_P   5            1
+_Log_occurence_differrence_INV  PB_W3                 1    1
+_Log_occurence_differrence_INV  PB_W3                 15   1
+_Log_occurence_differrence_INV  PB_W3                 4    1
+_Log_occurence_differrence_INV  PB_W5_noDEG_ZIP       0    1
+_Log_occurence_differrence_INV  PB_W5_noDEG_ZIP  13   1
+_Log_occurence_differrence_INV  PB_W5_noDEG_ZIP       3    1
+_Log_occurence_differrence_INV  PB_W5_noDEG_ZIP       4    1
+_Log_occurence_differrence_INV  PB_W6_3_trivial_PG    4    1
+_Log_occurence_differrence_INV   PB_W7_tail_GP 10   1
+_Log_occurence_differrence_INV   PB_W7_tail_GP 11   1
+_Log_occurence_differrence_INV   PB_W7_tail_GP 13   1
+_Log_occurence_differrence_INV   PB_W7_tail_GP 3    1
+_Log_occurence_differrence_INV   PB_W7_tail_GP 6    1
+_Log_occurence_differrence_INV   PB_W7_tail_GP 7    1
+_Log_occurence_differrence_INV   PB_W7_tail_GP 8    1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       0    1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       1    1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       15   1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       4    1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       6    1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       7    1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       8    1
+_Log_occurence_differrence  PB_W5_noDEG_ZIP       9    1
+_Log_occurence_differrence  PB_W6_3_trivial_PG    12   1
+_Log_occurence_differrence  PB_W6_3_trivial_PG    4    1
+_Log_occurence_differrence  PB_W6_4_trivial_PG    12   1
+_Log_occurence_differrence   PB_W7_tail_GP 1    1
+_Log_occurence_differrence   PB_W7_tail_GP 11   1
+_Log_occurence_differrence   PB_W7_tail_GP 15   1
+_Log_occurence_differrence   PB_W7_tail_GP 5    1
+_Log_occurence_differrence   PB_W7_tail_GP 8    1
+_Log_occurence_differrence   PB_W7_tail_GP 9    1
+_Log_occurence_differrence  PB_W7_trivial_PG      6    1
+_Log_occurence_differrence  PB_W7_trivial_PG 8    1
+_Log_occurence_differrence  PB_W7_trivial_PG      9    1
+_Log_occurence_differrence  Trivial               3    1
+_Log_occurence_differrence  Trivial_P_G   18  1
+_Log_occurence_differrence  Trivial_P_G           28   1
+_Log_occurence_differrence  Trivial_P_G   39  1
+_Log_occurence_differrence  Trivial_P_G   4   1
+_Log_occurence_differrence  W11_intricate         18   1
+_Log_occurence_differrence   W9_-2_5_G_P          18  1
+_Log_occurence_differrence   W9_-2_5_G_P  38   1
+_T_statistics_PB_word_INV  PB_W5_noDEG_ZIP DDDDD	   0 1
+_T_statistics_PB_word_INV  PB_W5_noDEG_ZIP DDFBG	   0 1
+_T_statistics_PB_word_INV  PB_W5_noDEG_ZIP JIACD	   2 1
+_T_statistics_PB_word_INV  PB_W5_noDEG_ZIP KLMMM	   2 1
+_T_statistics_PB_word_INV  PB_W5_noDEG_ZIP MMMMM	  -4 1
+_T_statistics_PB_word_INV  PB_W5_noDEG_ZIP MNOPA	   0 1
+_T_statistics_PB_word  PB_w11_tail              FJO	   0 1
+_T_statistics_PB_word  PB_w11_tail              JIA	   0 1
+_T_statistics_PB_word  PB_w11_tail              KLN       -1 2
+_T_statistics_PB_word  PB_w11_tail              PGB	   0 2
+_T_statistics_PB_word  PB_W3                    ACDDDFB	   0 1
+_T_statistics_PB_word  PB_W3                    AKLMMMM	   0 1
+_T_statistics_PB_word  PB_W3                    MMMMI	 -2 1
+_T_statistics_PB_word  PB_W3                    MMMMM	  3 1
+_T_statistics_PB_word  PB_W4N                   KLN	   1 2
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          ACDDDFB	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  BGKLM  0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          BLM	   3 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  DDDDF  0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          EHJ	   0 2
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  EHJIA  0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  FBGCD  0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          FJO	   0 2
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          FKL	   1 2
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          GHI	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          HIG	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          IAP	   2 2
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  IGB    0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  KLMMM  2 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          KLN	   3 2
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          KLN       -3 2
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          LIG	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  MMMMI -2 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  MMMMM  5 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP  MNOPB  0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          NGC	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          NGH	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          OPF	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          PAFKL  0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          PAP	   0 1
+_T_statistics_PB_word  PB_W5_noDEG_ZIP          PFB	   3 1
+_T_statistics_PB_word  PB_W7_tail_GP MMMMMMM   0 1
+_T_statistics_PB_word  PB_W7_trivial_PG         GCF	   0 1
+_T_statistics_PB_word  PB_W7_trivial_PG         GHI	   0 1
+_T_statistics_PB_word  PB_W7_trivial_PG         HIG	   0 1
+_T_statistics_PB_word  PB_W7_trivial_PG         NOPAFKL	   0 1
+_T_statistics_PB_word  PB_W7_trivial_PG         PAP	   0 1
+_T_statistics_PB_word  PB_W7_trivial_PG         PGB	   0 1
+_T_statistics_single_INV  PB_W5_noDEG_ZIP  13   1
+_T_statistics_single  PB_W7_tail_GP 2    1
+_T_statistics_single_window   PB_W7_tail_GP   3  -3 3   1

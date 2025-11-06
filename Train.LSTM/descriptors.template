@@ -1,0 +1,7 @@
+# my_fourier.tune
+-props-file AAindex.list
+type _c_FourierSmoothed_tail
+period   1.2  5.0  0.4
+nperiods 3    5    1
+degree   1    1    1
+strip-comments true
