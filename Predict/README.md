@@ -9,7 +9,7 @@ Protein Secondary Structure Prediction by TruMPET 2025.
 <br>https://ftp.eimb.ru/Milch/TruMPET.2025/Models/TruMPET2025.models.tar.xz
 <br>Unpack this archive into the <b>Models</b> directory. 
 3. (Optional) ESM2 model download
-<br>You can download ESM2 model that is required to extract embeddings manually. The required model (≈1.1 GB) is available for download at:
+<br>You can manually download ESM2 model that is required to extract embeddings. The required model (≈1.1 GB) is available for download at:
 <br>https://ftp.eimb.ru/Milch/TruMPET.2025/ESM2/ESM2_UR50D.tar.xz
 <br>Unpack this archive into the <b>Models/ESM2/checkpoints</b> subdirectory. If you will skip this step then script try to download this model from the official ESM2 repository.
 5.	Default path configuration
