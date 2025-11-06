@@ -1,7 +1,7 @@
 Protein Secondary Structure Prediction by TruMPET 2025.
 
 1.	Databases preparation
-You will need frequency extrapolation databases and the AAindex database for protein structure prediction. Precomputed databases (≈7.5 GB) are available for download at:
+You will need frequency extrapolation databases and the AAindex database for protein secondary structure prediction. Precomputed databases (≈7.5 GB) are available for download at:
 <br>https://ftp.eimb.ru/Milch/TruMPET.2025/Databases/TruMPET2025.databases.tar.xz
 <br>Unpack this archive into the Databases directory. 
 
@@ -34,4 +34,4 @@ python3 TruMPET2025_cpu.py -f *.fasta
 python3 TruMPET2025_cuda.py -d *.data
 ```
 
-The results of PSSP are stored in the directory specified by the OUT_DIR variable (e.g., in the results subdirectory in the example above). 
+The results of PSSP are stored in the directory specified by the OUT_DIR variable (e.g., in the 'results/' subdirectory in the example above). 
