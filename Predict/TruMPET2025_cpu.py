@@ -10,20 +10,20 @@ import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
-# ========= НАСТРОЙКИ ПО УМОЛЧАНИЮ =========
+# ========= Default Settings =========
 MODEL_PATH      = "Models/mix/1024_4_cpu.pt" # mix model provides 84.46 Q8 prediction accuracy with 583 additional descriptors
 TASK_SET_FILE   = "Models/mix/1024_4.task"
 #MODEL_PATH      = "Models/LDA/512_2_cpu.pt" # LDA model provides 83.11 Q8 prediction accuracy with 153 additional descriptors
 #TASK_SET_FILE   = "Models/LDA/512_2.task"
 OUT_DIR = "results"
 LOG_LEVEL = "INFO"
-# Пути для предикторов
+# Databases Paths
 PATH_TO_FREQUENCY_STORE    = "Databases/FrequencyExtrapolation/"
 PATH_TO_AAINDEX_FILE       = "Databases/AAindex/aaindex.txt"
 PATH_TO_AAINDEX_TRI_LETTER = "Databases/AAindex/aaindex_mutant3.txt"
 # ==========================================
 
-# === импорты из проекта ===
+# === Descriptors type code ===
 sys.path.append(os.path.join(os.path.dirname(__file__), 'BasicPredictors/'))
 from _CommonConstants import _CommonConstants
 from _create_predictors_set_common import _create_predictors_set_common
@@ -35,8 +35,8 @@ try:
 except Exception:
     esm = None
 
-# --- DSSP Q8 словари ---
-index_to_dssp = {v:k for v,k in enumerate("HIGEBTS-")}  # 0..7 → символ
+# --- DSSP Q8 dictionaries ---
+index_to_dssp = {v:k for v,k in enumerate("HIGEBTS-")}  # 0..7 → symbol
 
 AA3_TO_AA1 = {
     "ALA":"A","ARG":"R","ASN":"N","ASP":"D","CYS":"C",
@@ -123,14 +123,12 @@ def read_fasta_aa1(filepath):
                 continue
             aa.append(line)
     aa1 = ''.join(aa).replace(" ", "").upper()
-    # FIX: убрать типичные мусорные символы, оставить только буквы/звёздочку/дефис
     aa1 = ''.join(ch for ch in aa1 if ch.isalpha() or ch in "*-").upper()
     if not aa1:
         raise ValueError(f"{filepath}: не удалось прочитать последовательность из FASTA.")
     return aa1
 
 def aa1_to_aa3_list(aa1):
-    # FIX: генерация aa3 для FASTA
     return [AA1_TO_AA3.get(ch, "UNK") for ch in aa1]
 
 def get_device():
@@ -166,7 +164,7 @@ def run_inference_single(aa1, aa3_list, out_basename, lstm_model, esm_pack):
     )
     objects = _create_predictors_set_common(TASK_SET_FILE, common)
 
-    # FIX: гарантируем равные длины (важно для Three_Letter_Mode)
+    # FIX: ensure the equal lengths (important for the Three_Letter_Mode)
     if not aa3_list or len(aa3_list) != len(aa1):
         aa3_list = aa1_to_aa3_list(aa1)
 
@@ -179,7 +177,7 @@ def run_inference_single(aa1, aa3_list, out_basename, lstm_model, esm_pack):
         raise RuntimeError(f"Length mismatch: phys={X_phys.shape[0]} vs esm={X_esm.shape[0]}")
     X = np.concatenate([X_phys, X_esm], axis=1)
 
-    # 3) инференс LSTM
+    # 3) inference LSTM
     L, F = X.shape
     device = next(lstm_model.parameters()).device
     x_t = torch.tensor(X, dtype=torch.float32, device=device).unsqueeze(0)  # (1, L, F)
@@ -190,14 +188,14 @@ def run_inference_single(aa1, aa3_list, out_basename, lstm_model, esm_pack):
     pred_idx = logits[0].argmax(dim=1).detach().cpu().numpy()
     pred_ss = ''.join(index_to_dssp.get(int(i), '*') for i in pred_idx)
 
-    # 4) запись
+    # 4) output
     os.makedirs(OUT_DIR, exist_ok=True)
     out_path = os.path.join(OUT_DIR, f"{out_basename}.pred.txt")
     with open(out_path, "w") as fw:
         fw.write(aa1 + "\n")
         fw.write(pred_ss + "\n")
 
-    print(f"✅ {out_basename}: L={L}, D={F} → {out_path}")
+    print(f" {out_basename}: L={L}, D={F} → {out_path}")
 
 def expand_paths(paths_or_patterns):
     seen = set()
