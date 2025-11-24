@@ -1,5 +1,5 @@
 # TruMPET.2025
-Bioinformatic scripts for IJMS 2025 article concerning protein secondary structure prediction (PSSP) by 4-layered bidirectional LSTM network.
+Bioinformatic scripts for IJMS 2025 article concerning protein secondary structure prediction (PSSP) by 4-layered bidirectional LSTM network. 
 <p>TruMPET (Training upon Multiple Pre-selected Elements Technique) results of 'mix' model:</p>
 <table><thead>
   <tr>
