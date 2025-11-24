@@ -1,6 +1,6 @@
 # TruMPET.2025
 Bioinformatic scripts for IJMS 2025 article concerning protein secondary structure prediction (PSSP) by 4-layered bidirectional LSTM network.
-<p>TruMPET results of 'mix' model:
+<p>TruMPET (Training upon Multiple Pre-selected Elements Technique) results of 'mix' model:
   <li>CB513: DSSP Q3 = 91.75%, Q8 = 86.24%</li>
   <li>TEST2018: DSSP Q3 = 91.78%, Q8 = 86.24%</li>
   <li>TEST2020-HQ: DSSP Q3 = 89.49%, Q8 = 83.78%)</li>
